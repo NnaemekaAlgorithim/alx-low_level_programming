@@ -3,14 +3,11 @@
 
 
 /*
-*
 * main - Entry point
 *
-* Description: "a simple programe to print text."
-*
 * Return: Always 0 (Success)
-*
 */
+
 int main(void)
 /* program starts here */
 {
