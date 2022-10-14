@@ -5,8 +5,6 @@
 /*
 * main - Entry point
 *
-* Description: "ok all good"
-*
 * Return: Always 0 (Success)
 */
 
