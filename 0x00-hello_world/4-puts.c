@@ -6,7 +6,7 @@
 *
 * main - Entry point
 *
-* a simple programe to print text.
+* Description: "a simple programe to print text."
 *
 * Return: Always 0 (Success)
 *
