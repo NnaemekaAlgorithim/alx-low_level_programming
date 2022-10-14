@@ -7,11 +7,11 @@
 *just for my ALX course
 */
 
-int main(void)
+int main(void)/*start of the program*/
 
 {
 
-puts("\"Programming is like building a multilingual puzzle");
+  puts("\"Programming is like building a multilingual puzzle");/*print text on screen*/
 
 return (0);
 
