@@ -2,12 +2,9 @@
 
 
 
-/**
-*
+/*
 *a simple programe to print text.
-*
 *just for my ALX course
-*
 */
 
 int main(void)
