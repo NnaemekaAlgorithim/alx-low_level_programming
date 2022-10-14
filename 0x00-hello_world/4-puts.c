@@ -12,7 +12,7 @@
 *
 */
 int main(void)
-
+/* program starts here */
 {
 
 puts("\"Programming is like building a multilingual puzzle");
