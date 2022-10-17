@@ -10,14 +10,17 @@
 int main(void)
 {
 int i, j;
-for (i = '0'; i <= '9'; i++)
+for (i = '0'; i < '9'; i++)
 {
-for (j = i; j < '9'; ++j)
+for (j = i; j <= '9'; j++)
 {
 putchar(i);
-putchar(j+1);
+putchar(j + 1);
+if (j < '9')
+{
 putchar(',');
 putchar(' ');
+}
 }
 }
 putchar('\n');
