@@ -1,4 +1,0 @@
-#!/bin/bash
-git add .
-git commit -m 'Functions_nested_loops'
-git push
