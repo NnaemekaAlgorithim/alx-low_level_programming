@@ -13,10 +13,10 @@
 int print_last_digit(int c)
 {
 
-char last_digit;
+int last_digit;
 
 last_digit = c % 10;
-_putchar(last_digit);
+_putchar(&last_digit);
 
 return (last_digit);
 
