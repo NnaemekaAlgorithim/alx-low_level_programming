@@ -8,9 +8,9 @@
 * On error, -1 is returned, and errno is set appropriately
 */
 
-int add(int, int)
+int add(int x, int y)
 {
-int z, y, x;
+int z;
 z = x + y;
 
 if (z < 0)
