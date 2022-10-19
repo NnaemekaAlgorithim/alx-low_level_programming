@@ -17,7 +17,7 @@ int last_digit;
 
 last_digit = c % 10;
 if (last_digit < 0) {
-putchar('-');
+_putchar('-');
 last_digit = -last_digit;
 }
 if (last_digit / 10 != 0)
