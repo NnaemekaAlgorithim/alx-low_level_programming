@@ -9,7 +9,7 @@
 */
 
 void jack_bauer(void)
-  
+
 {
 int hour, minute;
 
