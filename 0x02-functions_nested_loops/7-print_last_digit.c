@@ -14,10 +14,8 @@ int print_last_digit(int c)
 {
 
 int last_digit;
-int num;
 last_digit = c % 10;
-num = (c % 10 + '0');
-_putchar(num);
+_putchar(last_digit + '0');
 
 return (last_digit);
 
