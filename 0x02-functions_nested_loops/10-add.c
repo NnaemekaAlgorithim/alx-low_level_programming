@@ -10,7 +10,7 @@
 
 int add(int, int)
 {
-int z, y, z;
+int z, y, x;
 z = x + y;
 
 if (z < 0)
