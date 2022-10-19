@@ -12,13 +12,7 @@
 
 int add(int x, int y)
 {
-int z;
-z = x + y;
 
-if (z < 0)
-z *= -1;
-_putchar(z + '0');
-
-return (z);
+return (x + y);
 
 }
