@@ -3,7 +3,7 @@
 
 
 /**
-* int _abs - Entry point
+* _abs - Entry point
 * @c: The character to take input.
 * Return: On success 1.
 * On error, -1 is returned, and errno is set appropriately
