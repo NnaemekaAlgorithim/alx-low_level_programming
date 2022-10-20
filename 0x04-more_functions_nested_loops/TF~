@@ -1,0 +1,4 @@
+#!/bin/bash
+touch $0
+chmod u+x $0
+emacs $0
