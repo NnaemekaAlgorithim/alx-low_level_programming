@@ -2,6 +2,7 @@
 
 /**
 * reset_to_98 - Entry point
+* @n: The variable to take input.
 * Return: Always 0 (Success)
 */
 
