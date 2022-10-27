@@ -1,38 +1,27 @@
 #include "main.h"
+#include <stddef.h>
 
 /**
- * *_strcat - Entry point
- * @dest: destination variable
- * @src: source variable
- * Return: Always 0 (success)
- */
+* _strcat - Entry point
+* @dest: destination variable
+* @src: source variable
+* Return: Always 0 (success)
+*/
 
 char *_strcat(char *dest, char *src)
 {
-//check if pointer are null.
-if (dest == NULL) && (src == NULL)
-return NULL;
+/*declear index to store conuting in loops*/
+/*declear dest_len variable to hold the value of destination length*/
+int index, dest_len;
+index = dest_len = 0;
 
-//create a copy of the destination pointer.
-char *cpdest = dest;
+/*this while loop loops through dest to get dest length*/
+while (dest[index++])
+dest_len++;
 
-//find the end of the copied destination pointer
-while (cpdest != '\0')
-{
-//increament the copied untill the end of string
-cpdest++;
+/*this for loop does appending of the strings while src is not null*/
+for (index = 0; src[index]; index++)
+dest[dest_len++] = src[index];
+
+return (dest);
 }
-
-//Append the source string characters untill the null character of the source file
-while (*src != '\0')
-{
-*cpdest++ = *src++;
-}
-
-//Append null character at the end
-*cpdest = '\0';
-
-//return destination pointer
-return dest;
-}
-
