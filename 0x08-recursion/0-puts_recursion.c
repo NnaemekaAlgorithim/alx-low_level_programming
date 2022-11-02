@@ -15,7 +15,7 @@ return;
 
 _putchar(s[index]);
 
-index++;
+index ++;
 
-_puts_recursion(s(index + 1));
+_puts_recursion(s);
 }
