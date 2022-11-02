@@ -1,6 +1,7 @@
 #ifndef MAIN_H
 #define MAIN_H
 
+int is_prime_number(int n);
 int find_sqrt(int num, int root);
 int _pow_recursion(int x, int y);
 int factorial(int n);
