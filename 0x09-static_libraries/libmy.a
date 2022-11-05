@@ -1,5 +1,5 @@
 !<arch>
-_putchar/       0           0     0     644     238       `
+_putchar.o/     0           0     0     644     238       `
 #include "main.h"
 
 /**
