@@ -20,7 +20,7 @@ return (NULL);
 for (i = 0; str[i]; i++)
 len++;
 
-newstr = malloc(sizeof(str) * (len + 1))
+newstr = malloc(sizeof(char) * (len + 1));
 
 if (newstr == NULL)
 return NULL;
