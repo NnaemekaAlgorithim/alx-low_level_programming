@@ -23,7 +23,7 @@ len++;
 newstr = malloc(sizeof(char) * (len + 1));
 
 if (newstr == NULL)
-return NULL;
+return (NULL);
 
 for (i = 0; str[i]; i++)
 newstr[i] = str[i];
