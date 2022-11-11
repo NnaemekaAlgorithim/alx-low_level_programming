@@ -30,4 +30,4 @@ array[i] = min++;
 
 return (array);
 
-{
+}
