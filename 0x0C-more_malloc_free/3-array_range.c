@@ -20,13 +20,13 @@ return (NULL);
 
 size = max - min + 1;
 
-array = malloc(sizeof(int) * size)
+array = malloc(sizeof(int) * size);
 
 if (array == NULL)
 return (NULL);
 
 for (i = 0; i < max; i++)
-array[i] = min++
+array[i] = min++;
 
 return (array);
 
