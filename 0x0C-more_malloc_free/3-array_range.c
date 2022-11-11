@@ -26,7 +26,10 @@ if (array == NULL)
 return (NULL);
 
 for (i = 0; i < max; i++)
-array[i] = min++;
+{
+array[i] = min;
+min++;
+}
 
 return (array);
 
