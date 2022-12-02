@@ -28,7 +28,7 @@ bitwise operators `>>`, `<<`, `&`, `|`, and `^` in C.
 
 
 
-* [holberton.h](./holberton.h): Header file containing prototypes for all
+* [main.h](./main.h): Header file containing prototypes for all
 
 functions written in the project.
 
